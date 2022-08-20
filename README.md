@@ -1,6 +1,6 @@
 # Software Requirements Specification for Website of Department of ICT
 
-#Introduction
+# Introduction
 
 The name of the project is Website of ICT department. It is an internet-based application
 which aim to provide information to all the students, admins & teachers of ICT department
