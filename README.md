@@ -90,7 +90,6 @@ password, a security question will be asked. In the event that he/she is unable 
 user must submit a formal request to the administrator for a password change together with
 the required documentation. Alternatively, an OTP will be provided to his/her phone number.
 Purpose: Login without any problem, can choose password whenever user wants to do.
-Software Requirements Specification for Website of Department of ICT Page 5
 ### 3.3 View/ change profile details and other confidential information
 The user can access or modify parts of his or her personal information, including email id,
 contact information, and address information. The profile will include the student's name,
@@ -117,7 +116,6 @@ Purpose: After entering this module, user will have access to all academic conte
 3.8 Application of approval
 The user can request for different types of approvals like certificates after graduation, vehicle
 pass allowance, allowance for sitting in the exam etc. After filling the given format, the
-Software Requirements Specification for Website of Department of ICT Page 6
 request will be sent to the administrative department for verification of request. After the
 verification, the user can get the response.
 Purpose: This feature makes the process more convenient, swift, and less laborious.
