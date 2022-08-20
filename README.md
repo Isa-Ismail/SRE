@@ -64,3 +64,131 @@ software as we want.
  The user cannot change their details without getting permission from the admin.
  The internet connection is also a constraint for the application. Since the application
 cannot be run without the internet.
+### 2.6 User Documentation
+User can access the system with a stable internet connection and a web browser. User will
+have to type the URL for the system, and they will be presented with the system.
+### 2.7 Assumptions and Dependencies
+Several factors that may affect the requirements specified in the SRS include:
+ It is assumed that every user will have a profile in the system according to their access
+limit.
+ The complaints and the feedback given by the students and other members of the
+department are assumed to be reliable.
+ The schedule for the exam, registration window will be open for only few days
+only after these pages will be inactive until next exam or registration period.
+ In the case that the project is delayed, there are some requirements that could be
+transferred to the next versio
+
+## System Features
+
+### 3.1 Login into Portal
+In this feature, the user can login into the system by providing their respective ID and
+password to the portal which are unique and provided by the university.
+Purpose: to login into the portal and get benefitted by the features and information.
+### 3.2 Change Password
+Change the password once you have logged into the system. If the user forgets their
+password, a security question will be asked. In the event that he/she is unable to do so, the
+user must submit a formal request to the administrator for a password change together with
+the required documentation. Alternatively, an OTP will be provided to his/her phone number.
+Purpose: Login without any problem, can choose password whenever user wants to do.
+Software Requirements Specification for Website of Department of ICT Page 5
+### 3.3 View/ change profile details and other confidential information
+The user can access or modify parts of his or her personal information, including email id,
+contact information, and address information. The profile will include the student's name,
+age, permanent address, parent's name, address, and contact information, year, semester,
+assigned room, hostel name and number, etc.
+Purpose: To maintain his or her current profile status
+### 3.4 Help / Manual
+Can obtain assistance using the help option, which provides information on the system's
+various features. In addition, a copy of the user manual will be sent in this area.
+Purpose: In the incidence of confusion, the user can easily resolve the issue and gain a more
+thorough understanding of the system's functionality
+### 3.5 Schedules
+Users can browse timetables and schedules for classes, examinations, seminars, and buses.
+Purpose: By obtaining this information, users will be able to organize their activities to make the
+best use of their time.
+### 3.6 Notices and Aannouncements
+The user can browse news and announcements from several departments on the homepage.
+Purpose: The user receives department updates and is aware of department and university
+events.
+### 3.7 Academics
+This module on dashboard contains all the information about the academics such as Faculty
+information, all the programs, academic calendar.
+Purpose: After entering this module, user will have access to all academic content.
+3.8 Application of approval
+The user can request for different types of approvals like certificates after graduation, vehicle
+pass allowance, allowance for sitting in the exam etc. After filling the given format, the
+Software Requirements Specification for Website of Department of ICT Page 6
+request will be sent to the administrative department for verification of request. After the
+verification, the user can get the response.
+Purpose: This feature makes the process more convenient, swift, and less laborious.
+### 3.9 Feedback
+By selecting the domain: Academics, Administration, Hostel, Mess, Transportation, one can
+file a complaint or provide feedback via text form. The department head will respond
+appropriately.
+Purpose: Informing authority having less effort.
+### 3.10 Result
+By logging into the site, students can view their results from previous semesters, generate a
+PDF file, and print it. Users are unable to view the results of other students. Also, they will be
+notified by pop-up notification
+Purpose: The user can track his or her academic performance conveniently.
+### 3.11 Research and Publications
+Student and faculty can access the contents of this segment by logging in the portal. Rest of
+the audience can only view just the title of research and publications and other documents.
+Also, students and faculty members can archive any thesis.
+Purpose: to be acknowledged about the previous and running works regarding paper
+publications
+### 3.12 Club Activities
+All of the department's clubs and its previous events, such as festivals and competitions, will
+be listed here. In addition, the details of the competition winner will be listed here.
+Purpose: Outsiders and new audiences, for example freshers, will be familiar with the
+activities of each club
+
+## External Interface Requirements
+
+### 4.1 User Interfaces
+When a user accesses the web portal for the very first time, the 'Home Page' of the portal
+should display a button that allows them to log in. If a user has not yet registered, they should
+be able to do so on the page where they log in if they are using this feature. In addition to
+that, there will be a remember me button. Users will be able to view the most recent notices
+posted by departments, as well as achievements, club activities, and other news and events,
+on the homepage of the website. We are going to add various features to the navigation bar,
+such as information about the department, academic information such as graduateundergraduate
+programs, semester results, enrollment, course curriculum, and other similar
+information. The user will also be able to view the members of the administrative staff and
+faculty. Users will be able to view a variety of study topics and the associated works when
+they navigate to the research section of the website.
+### 4.2 Hardware Interfaces
+Client End:
+Minimum RAM of 512MB or above
+Hard disk of 20GB or above
+Server End:
+Minimum RAM of 512MB or above
+Hard disk of 20GB or above
+### 4.3 Software Interfaces
+Compatible with any renowned browsers; for example, Google Chrome, Mozilla Firefox,
+Brave, Microsoft edge etc.
+Need text editor, HTML, CSS, JavaScript, bootstrap, react.js, firebase.
+### 4.4 Communications Interfaces
+Internet will be used to facilitate communication between the client and server. Initially,
+HTTP is used as the protocol.
+
+## Other Nonfunctional Requirements
+
+### 5.1 Performance Requirements
+Performance requirements should emphasize on loading web pages very fast to improve user
+experience. We are using React as a framework to build frontend UI. The backend will query
+the database and those operations will also take very little amount of time. That is the overall
+performance requirements for the project.
+### 5.2 Reliability
+Atomic operations will take place to maintain data integrity. Token based authorization will
+be implemented to authorize users. The website will ask users to accept cookies which will
+save the session information in the browser.
+### 5.3 Security Requirements
+The user privilege will be maintained strictly to ensure security. Users will be provided with
+three distinct roles to login to this website. The admin panel of the website will have access to
+majority of the data in the database. Teachers and students will also get their respective
+access to the database. A token-based authorization will ensure further security measures of
+this website.
+### 5.4 Software Quality Attributes
+Correctness, Reliability, Adequacy, Learnability, Robustness, Maintainability, Readability,
+Extensibility, Testability, Efficiency, Portability will be maintained.
